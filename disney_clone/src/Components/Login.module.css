@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    text-align: center; 
+    overflow:hidden;
+    height:100vh;
+   
+    box-sizing: border-box;
+}
+.content{
+    margin-bottom:10vw;
+ width:100%;
+ position:relative;
+min-height: 100vh;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ flex-direction: column;
+ padding: 80px 40px;
+ height:100%  ;
+}
+.bgimage{
+    background-image: url('./Assets/login-background.jpg');
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+background-position: top;
+background-size: cover;
+z-index: -1;
+
+}
+.cta1{
+margin-bottom: 12px;
+    min-height: 1px;
+    max-width: 600px;
+    display: block;
+    width: 100%;
+/* background-color: red; */
+    /* background-color: red; */
+}
+.CTA{
+    margin-bottom: 2vw;
+    max-width: 650px;
+    flex-wrap: warp;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-top: 0;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto ;
+  transition-timing-function:ease-out;
+  transition: opacity 0.2s ;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.signup{
+    width: 100%;
+    /* height: 45px; */
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0063e5;
+    /* text-decoration: none; */
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
+padding: 16px 0 ;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.signup:hover{
+    background-color: #0483ee;
+
+}
+.description{
+   color: hsla(0, 0%, 95.3%,1);
+   font-size: 15px;
+   margin:0 0 24px;
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   
+}
+
+.cta2{
+   width: 100%;
+   max-width: 600px ;
+   margin-bottom: 20px;
+   display: inline-block;
+   vertical-align: bottom;
+}
